@@ -1,6 +1,17 @@
 {
   "performanceId": "perf-2026-12-03-02",
-  "seatZone": "A-access-02",
-  "service": "sign-language",
-  "companionCount": 1
+  "ticketRef": "T-1001",
+  "patronId": "P-0001",
+  "patron": {
+    "name": "张观众",
+    "contact": { "phone": "13800001234", "email": "zhang@example.com" }
+  },
+  "mobility": "wheelchair",
+  "chairWidthMm": 700,
+  "companionCount": 1,
+  "signLanguageNeeded": false,
+  "hearingAssistanceNeeded": true,
+  "hearingCompatibility": "universal",
+  "consentScopes": ["need.mobility", "need.hearing", "contact.notify", "health.note"],
+  "healthNote": "需要平缓坡道（敏感字段，仅现场履约角色可见）"
 }
