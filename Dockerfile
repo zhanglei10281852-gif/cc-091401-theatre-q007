@@ -8,6 +8,7 @@ COPY reference ./reference
 FROM base AS test
 ENV NODE_ENV=test
 COPY tests ./tests
+COPY scripts ./scripts
 CMD ["npm", "test"]
 FROM base AS runtime
 EXPOSE 8000
